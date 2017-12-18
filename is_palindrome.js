@@ -1,5 +1,5 @@
 function isPalindrom(string) {
-  string = string.toLoweCase();
+  string = string.toLowerCase();
   var characters = string.split('');
   var validCharacters = 'abcdefghijklmnopqrstuvwxyz'.split('');
 
