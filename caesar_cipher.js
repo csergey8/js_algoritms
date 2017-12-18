@@ -19,4 +19,5 @@ function caesarCipher(str, num) {
     }
      else newString += alphabet[newIndex];
   }
+  return newString;
 }
